@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <div class="card container">
+      <!--  -->
+      <div class="image-box">
+        <img
+          class="imageOne"
+          src="images/drawers.jpg"
+          alt="flower vase on a green table"
+        />
+      </div>
+
+      <!--  -->
+      <div class="text-box">
+        <p class="intro-text">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </p>
+        <p class="product-copy">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+
+        <!--  -->
+        <div class="customer flex flex-row">
+          <div class="customer-pic-container">
+            <img
+              class="headshot"
+              src="images/avatar-michelle.jpg"
+              alt="headshot of customer"
+            />
+          </div>
+
+          <!--  -->
+          <div class="customer-info">
+            <p class="customer-name">Michelle Appleton</p>
+            <p class="review-date">28 Jun 2020</p>
+            <button class="btn">
+              <img
+                class="share-icon"
+                src="images/icon-share.svg"
+                alt="share icon"
+              />
+            </button>
+          </div>
+
+          <!--  -->
+        </div>
+
+        <!--  -->
+      </div>
+      <div class="popup flex flex-row hidden">
+        <span>Share</span>
+        <a href="#"
+          ><img src="images/icon-facebook.svg" alt="facebook logo icon"
+        /></a>
+        <a href="#"
+          ><img src="images/icon-twitter.svg" alt="twitter logo icon"
+        /></a>
+        <a href="#"
+          ><img src="images/icon-pinterest.svg" alt="pinterest logo icon"
+        /></a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
